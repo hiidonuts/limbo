@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>limbo | clouds</title>
+    <link rel="icon" type="image/png" href="asset/favicon.png">
+    <link rel="stylesheet" href="script/css/focus.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+</head>
+<body>
+    <spline-viewer url="https://prod.spline.design/De7DMqVGax8PG0PC/scene.splinecode"></spline-viewer>
+
+    <nav class="navbar">
+        <div class="logo">୨ৎ</div>
+        <div class="nav-links">
+            <a href="index.html">room</a>
+            <span class="nav-dot">•</span>
+            <a href="subjects.html">desk</a>
+            <span class="nav-dot">•</span>
+            <a href="focus.html" class="active">clouds</a>
+            <span class="nav-dot">•</span>
+            <a href="extras.html">meadow</a>
+            <span class="nav-dot">•</span>
+            <a href="self.html">mine</a>
+        </div>
+        <div id="clock">00:00</div>
+    </nav>
+    
+    <div class="main-container">
+        <div class="content-container">
+            <h1>study timer</h1>
+            <p>set timer (minutes):</p>
+
+            <div id="timer">
+                <input type="number" id="customMinutes" min="1" value="25"><br><br>
+                
+                <span id="time">25:00</span><br>
+                <button class="action-button" id="startBtn">start</button>
+                <button class="action-button" id="resetBtn">reset</button>
+            </div>
+            
+            <audio id="beepSound" src="asset/beep.mp3" preload="auto"></audio>
+
+            <div id="divider">
+                <p>𓏵𓏵𓏵𓏵𓏵𓏵𓏵𓏵𓏵𓏵𓏵𓏵</p>
+            </div>
+
+            <h2>spotify playlist</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3QS0pWHjXRsAOyvp2OPhHB?utm_source=generator" 
+                    width="70%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <footer class="footer">
+        made with ❤︎ by Ven
+    </footer>    
+
+    <script src="script/js/focus.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>limbo | desk</title>
+    <link rel="icon" type="image/png" href="asset/favicon.png">
+    <link rel="stylesheet" href = "script/css/subjects.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+</head>
+<body>
+    <spline-viewer url="https://prod.spline.design/9t4k-xYDVI0vgP3G/scene.splinecode"></spline-viewer>
+
+    <nav class="navbar">
+        <div class="logo">୨ৎ</div>
+        <div class="nav-links">
+            <a href="index.html">room</a>
+            <span class="nav-dot">•</span>
+            <a href="subjects.html" class="active">desk</a>
+            <span class="nav-dot">•</span>
+            <a href="focus.html">clouds</a>
+            <span class="nav-dot">•</span>
+            <a href="extras.html">meadow</a>
+            <span class="nav-dot">•</span>
+            <a href="self.html">mine</a>
+        </div>
+        <div id="clock">00:00</div>
+    </nav>
+    
+    <div class="main-container">
+        <div class="content-container">
+            <h1>subject folders</h1>
+            <p>p.s: scroll the page for a surprise!</p>
+            <div class="button-container">
+                <button class="action-button" onclick="openModal('createFolderModal')">create folder</button>
+                <button class="action-button" onclick="openModal('uploadModal')">upload items</button>
+            </div>
+            
+            <div id="subjectsList" class="subjects-list">
+            </div>
+        </div>
+    </div>
+
+    <div id="createFolderModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('createFolderModal')">&times;</span>
+            <h2>create new subject folder</h2>
+            <input type="text" id="folderName" placeholder="enter subject name" class="modal-input">
+            <button onclick="createSubjectFolder()" class="modal-button">create!</button>
+        </div>
+    </div>
+
+    <div id="uploadModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('uploadModal')">&times;</span>
+            <h2>upload items</h2>
+            <select id="subjectSelect" class="modal-input">
+            </select>
+            <input type="file" id="fileInput" accept=".pdf,.doc,.docx" class="file-input">
+            <button onclick="uploadFile()" class="modal-button">upload!</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        made with ❤︎ by Ven
+    </footer>    
+
+    <script src="script/js/subjects.js"></script>
+</body>
+</html>
