@@ -48,6 +48,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](/assets/limbo.png)
+[![Product Name Screen Shot][product-screenshot]](limbo.png)
 
 Limbo is a personal project to showcase 3D designs
