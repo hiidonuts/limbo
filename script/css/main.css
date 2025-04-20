@@ -139,7 +139,7 @@ spline-viewer {
     color: var(--primary-color);
 }
 
-.movement-instructions {
+.interaction, .movement-instructions {
     position: fixed;
     bottom: 15px;
     left: 15px;
