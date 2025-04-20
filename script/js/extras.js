@@ -8,7 +8,7 @@ function updateClock() {
 document.addEventListener('DOMContentLoaded', () => {
   const natureSound = document.getElementById('natureSound');
   natureSound.loop = true;
-  natureSound.volume = 0.5;
+  natureSound.volume = 1;
   natureSound.play().catch(() => {
     console.warn('Autoplay prevented. Add a play button to start audio.');
   });
