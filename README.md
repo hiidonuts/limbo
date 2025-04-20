@@ -11,7 +11,7 @@
     <a href="https://github.com/hiidonuts/limbo"><strong>explore the docs»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/hiidonuts/limbo">View Demo</a>
     &middot;
     <a href="https://github.com/hiidonuts/limbo/issues/new?template=bug_report.md">report bug</a>
     &middot;
