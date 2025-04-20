@@ -134,6 +134,10 @@ spline-viewer {
     padding: 1rem;
 }
 
+#interaction {
+    margin-top: 3rem;
+}
+
 #author {
     font-style: italic;
     color: var(--primary-color);
