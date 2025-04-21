@@ -1,6 +1,5 @@
 let subjects = [];
 
-// Function to open modal
 function openModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.style.display = "block";
@@ -10,7 +9,6 @@ function openModal(modalId) {
     }
 }
 
-// Function to close modal
 function closeModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.style.display = "none";
