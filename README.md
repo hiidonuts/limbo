@@ -48,6 +48,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
+![Limbo_Screenshot](limbo.png)
 
 Limbo is a personal project to showcase 3D designs
