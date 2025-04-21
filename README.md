@@ -48,6 +48,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](limbo.png)
+<img src="limbo.png" object-position: center;>
 
 Limbo is a personal project to showcase 3D designs
